@@ -1,0 +1,257 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace FiloCar.Persistence.Migrations
+{
+    /// <inheritdoc />
+    public partial class InitalCreate3 : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.UpdateData(
+                table: "Departmans",
+                keyColumn: "DepartmanId",
+                keyValue: 1111,
+                columns: new[] { "City", "District", "Name" },
+                values: new object[] { "Muş", "Berkshire", "Computers" });
+
+            migrationBuilder.UpdateData(
+                table: "Departmans",
+                keyColumn: "DepartmanId",
+                keyValue: 2222,
+                columns: new[] { "City", "District", "Name" },
+                values: new object[] { "İçel (Mersin)", "Buckinghamshire", "Outdoors" });
+
+            migrationBuilder.UpdateData(
+                table: "Departmans",
+                keyColumn: "DepartmanId",
+                keyValue: 3333,
+                columns: new[] { "City", "District", "Name" },
+                values: new object[] { "Karaman", "Borders", "Games" });
+
+            migrationBuilder.UpdateData(
+                table: "Drives",
+                keyColumn: "DriverId",
+                keyValue: 11,
+                columns: new[] { "FirstName", "LastName", "LicenseNumber", "PhoneNumber" },
+                values: new object[] { "Bünül", "Özgörkey", "tiot1lzodr", "+90-373-773-84-57" });
+
+            migrationBuilder.UpdateData(
+                table: "Drives",
+                keyColumn: "DriverId",
+                keyValue: 22,
+                columns: new[] { "FirstName", "LastName", "LicenseNumber", "PhoneNumber" },
+                values: new object[] { "Alpış", "Baykam", "6esdpbd8fd", "+90-797-494-8-997" });
+
+            migrationBuilder.UpdateData(
+                table: "FuelLogs",
+                keyColumn: "FuelLogId",
+                keyValue: 23,
+                columns: new[] { "CurrentKm", "FuelDate", "Liter", "LiterCount", "StationName" },
+                values: new object[] { 37835, new DateTime(2025, 4, 13, 4, 38, 38, 325, DateTimeKind.Local).AddTicks(750), 26.614941311893638, 36.330011831297817, "Akyüz, Nalbantoğlu and Akaydın" });
+
+            migrationBuilder.UpdateData(
+                table: "FuelLogs",
+                keyColumn: "FuelLogId",
+                keyValue: 24,
+                columns: new[] { "CurrentKm", "FuelDate", "Liter", "LiterCount", "StationName" },
+                values: new object[] { 28188, new DateTime(2025, 4, 20, 12, 9, 28, 816, DateTimeKind.Local).AddTicks(7300), 43.14284619112118, 39.950644027933926, "Sandalcı, Akyürek and Beşok" });
+
+            migrationBuilder.UpdateData(
+                table: "FuelLogs",
+                keyColumn: "FuelLogId",
+                keyValue: 25,
+                columns: new[] { "CurrentKm", "FuelDate", "Liter", "LiterCount", "StationName" },
+                values: new object[] { 61870, new DateTime(2025, 4, 21, 3, 18, 24, 791, DateTimeKind.Local).AddTicks(4865), 68.328905034699616, 32.925500758809314, "Orbay - Baykam" });
+
+            migrationBuilder.UpdateData(
+                table: "MaintenanceRecords",
+                keyColumn: "Id",
+                keyValue: 41,
+                columns: new[] { "Cost", "Description", "KmAtMaintenance", "MaintenanceDate" },
+                values: new object[] { 909.79999999999995, "Eos qui consequatur.", 180320, new DateTime(2024, 12, 29, 14, 59, 21, 194, DateTimeKind.Local).AddTicks(3439) });
+
+            migrationBuilder.UpdateData(
+                table: "MaintenanceRecords",
+                keyColumn: "Id",
+                keyValue: 42,
+                columns: new[] { "Cost", "Description", "KmAtMaintenance", "MaintenanceDate" },
+                values: new object[] { 869.96000000000004, "Adanaya quia quam adipisci batarya dergi vitae ad dağılımı.", 205378, new DateTime(2017, 12, 23, 12, 0, 40, 214, DateTimeKind.Local).AddTicks(202) });
+
+            migrationBuilder.UpdateData(
+                table: "MaintenanceRecords",
+                keyColumn: "Id",
+                keyValue: 43,
+                columns: new[] { "Cost", "Description", "KmAtMaintenance", "MaintenanceDate" },
+                values: new object[] { 367.13, "Autem kutusu accusantium ve esse bilgisayarı modi odit aut quia.", 90667, new DateTime(2018, 6, 23, 4, 44, 39, 966, DateTimeKind.Local).AddTicks(7541) });
+
+            migrationBuilder.UpdateData(
+                table: "VehicleAssigments",
+                keyColumn: "VehicleAssigmentId",
+                keyValue: 50,
+                columns: new[] { "AssignmentEnd", "AssignmentStart", "Notes" },
+                values: new object[] { new DateTime(2025, 3, 14, 9, 41, 57, 830, DateTimeKind.Local).AddTicks(4029), new DateTime(2025, 3, 4, 19, 12, 31, 680, DateTimeKind.Local).AddTicks(3572), "Laudantium gül ipsam sit." });
+
+            migrationBuilder.UpdateData(
+                table: "VehicleAssigments",
+                keyColumn: "VehicleAssigmentId",
+                keyValue: 51,
+                columns: new[] { "AssignmentEnd", "AssignmentStart", "Notes" },
+                values: new object[] { new DateTime(2025, 4, 6, 0, 57, 36, 728, DateTimeKind.Local).AddTicks(6474), new DateTime(2025, 3, 4, 19, 12, 31, 680, DateTimeKind.Local).AddTicks(3572), "Velit mıknatıslı ut ipsum." });
+
+            migrationBuilder.UpdateData(
+                table: "VehicleAssigments",
+                keyColumn: "VehicleAssigmentId",
+                keyValue: 52,
+                columns: new[] { "AssignmentEnd", "AssignmentStart", "Notes" },
+                values: new object[] { new DateTime(2025, 4, 1, 13, 28, 28, 685, DateTimeKind.Local).AddTicks(6450), new DateTime(2025, 3, 4, 19, 12, 31, 680, DateTimeKind.Local).AddTicks(3572), "Patlıcan telefonu veritatis kulu quia bilgisayarı ratione ullam anlamsız." });
+
+            migrationBuilder.UpdateData(
+                table: "Vehicles",
+                keyColumn: "VehicleId",
+                keyValue: 1,
+                columns: new[] { "AddTime", "Brand", "IsActive", "Km", "Model", "Year" },
+                values: new object[] { new DateTime(2024, 7, 12, 4, 34, 53, 307, DateTimeKind.Local).AddTicks(8035), "Volvo", true, 3454, "1", 2016 });
+
+            migrationBuilder.UpdateData(
+                table: "Vehicles",
+                keyColumn: "VehicleId",
+                keyValue: 2,
+                columns: new[] { "AddTime", "Brand", "IsActive", "Km", "Model", "Year" },
+                values: new object[] { new DateTime(2017, 10, 30, 11, 15, 18, 970, DateTimeKind.Local).AddTicks(2990), "Bugatti", false, 191857, "Prius", 2020 });
+
+            migrationBuilder.UpdateData(
+                table: "Vehicles",
+                keyColumn: "VehicleId",
+                keyValue: 3,
+                columns: new[] { "AddTime", "Brand", "IsActive", "Km", "Model", "Year" },
+                values: new object[] { new DateTime(2019, 4, 14, 14, 27, 51, 315, DateTimeKind.Local).AddTicks(3624), "BMW", false, 39255, "Grand Caravan", 2019 });
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.UpdateData(
+                table: "Departmans",
+                keyColumn: "DepartmanId",
+                keyValue: 1111,
+                columns: new[] { "City", "District", "Name" },
+                values: new object[] { "Niğde", "Cambridgeshire", "Tools, Movies & Electronics" });
+
+            migrationBuilder.UpdateData(
+                table: "Departmans",
+                keyColumn: "DepartmanId",
+                keyValue: 2222,
+                columns: new[] { "City", "District", "Name" },
+                values: new object[] { "Ağrı", "Bedfordshire", "Music" });
+
+            migrationBuilder.UpdateData(
+                table: "Departmans",
+                keyColumn: "DepartmanId",
+                keyValue: 3333,
+                columns: new[] { "City", "District", "Name" },
+                values: new object[] { "Eskişehir", "Cambridgeshire", "Automotive & Jewelery" });
+
+            migrationBuilder.UpdateData(
+                table: "Drives",
+                keyColumn: "DriverId",
+                keyValue: 11,
+                columns: new[] { "FirstName", "LastName", "LicenseNumber", "PhoneNumber" },
+                values: new object[] { "Burunduk", "Dalkıran", "v88whdzvxh", "+90-235-386-1-514" });
+
+            migrationBuilder.UpdateData(
+                table: "Drives",
+                keyColumn: "DriverId",
+                keyValue: 22,
+                columns: new[] { "FirstName", "LastName", "LicenseNumber", "PhoneNumber" },
+                values: new object[] { "Çemen", "Sözeri", "f2uyibxko1", "+90-177-874-33-32" });
+
+            migrationBuilder.UpdateData(
+                table: "FuelLogs",
+                keyColumn: "FuelLogId",
+                keyValue: 23,
+                columns: new[] { "CurrentKm", "FuelDate", "Liter", "LiterCount", "StationName" },
+                values: new object[] { 67556, new DateTime(2025, 4, 19, 2, 56, 38, 822, DateTimeKind.Local).AddTicks(5548), 36.478213512902997, 38.201321414182551, "Tekelioğlu - Alyanak" });
+
+            migrationBuilder.UpdateData(
+                table: "FuelLogs",
+                keyColumn: "FuelLogId",
+                keyValue: 24,
+                columns: new[] { "CurrentKm", "FuelDate", "Liter", "LiterCount", "StationName" },
+                values: new object[] { 35871, new DateTime(2025, 4, 17, 3, 18, 7, 231, DateTimeKind.Local).AddTicks(4652), 76.352562655776438, 38.918312859770509, "Özbir - Kaplangı" });
+
+            migrationBuilder.UpdateData(
+                table: "FuelLogs",
+                keyColumn: "FuelLogId",
+                keyValue: 25,
+                columns: new[] { "CurrentKm", "FuelDate", "Liter", "LiterCount", "StationName" },
+                values: new object[] { 70059, new DateTime(2025, 4, 14, 19, 19, 24, 953, DateTimeKind.Local).AddTicks(7513), 38.190026950008978, 33.731873109847029, "Beşerler - Aybar" });
+
+            migrationBuilder.UpdateData(
+                table: "MaintenanceRecords",
+                keyColumn: "Id",
+                keyValue: 41,
+                columns: new[] { "Cost", "Description", "KmAtMaintenance", "MaintenanceDate" },
+                values: new object[] { 444.25999999999999, "Iusto voluptatem okuma salladı camisi camisi koşuyorlar autem kapının.", 28083, new DateTime(2018, 1, 6, 11, 56, 44, 217, DateTimeKind.Local).AddTicks(1271) });
+
+            migrationBuilder.UpdateData(
+                table: "MaintenanceRecords",
+                keyColumn: "Id",
+                keyValue: 42,
+                columns: new[] { "Cost", "Description", "KmAtMaintenance", "MaintenanceDate" },
+                values: new object[] { 954.51999999999998, "Enim qui et quaerat.", 163307, new DateTime(2018, 8, 6, 3, 47, 52, 934, DateTimeKind.Local).AddTicks(827) });
+
+            migrationBuilder.UpdateData(
+                table: "MaintenanceRecords",
+                keyColumn: "Id",
+                keyValue: 43,
+                columns: new[] { "Cost", "Description", "KmAtMaintenance", "MaintenanceDate" },
+                values: new object[] { 324.60000000000002, "Gülüyorum bundan eum orta quaerat camisi accusantium magnam.", 284542, new DateTime(2021, 2, 11, 10, 53, 3, 451, DateTimeKind.Local).AddTicks(9257) });
+
+            migrationBuilder.UpdateData(
+                table: "VehicleAssigments",
+                keyColumn: "VehicleAssigmentId",
+                keyValue: 50,
+                columns: new[] { "AssignmentEnd", "AssignmentStart", "Notes" },
+                values: new object[] { null, new DateTime(2024, 5, 21, 6, 39, 2, 474, DateTimeKind.Local).AddTicks(526), "Biber commodi değerli ışık." });
+
+            migrationBuilder.UpdateData(
+                table: "VehicleAssigments",
+                keyColumn: "VehicleAssigmentId",
+                keyValue: 51,
+                columns: new[] { "AssignmentEnd", "AssignmentStart", "Notes" },
+                values: new object[] { new DateTime(2025, 3, 21, 4, 35, 4, 830, DateTimeKind.Local).AddTicks(2554), new DateTime(2024, 5, 21, 6, 39, 2, 474, DateTimeKind.Local).AddTicks(526), "Masanın ki ratione sıradanlıktan layıkıyla dolore lakin sokaklarda ducimus." });
+
+            migrationBuilder.UpdateData(
+                table: "VehicleAssigments",
+                keyColumn: "VehicleAssigmentId",
+                keyValue: 52,
+                columns: new[] { "AssignmentEnd", "AssignmentStart", "Notes" },
+                values: new object[] { new DateTime(2024, 11, 12, 3, 8, 33, 253, DateTimeKind.Local).AddTicks(1182), new DateTime(2024, 5, 21, 6, 39, 2, 474, DateTimeKind.Local).AddTicks(526), "Aliquid yaptı sokaklarda dolor odio." });
+
+            migrationBuilder.UpdateData(
+                table: "Vehicles",
+                keyColumn: "VehicleId",
+                keyValue: 1,
+                columns: new[] { "AddTime", "Brand", "IsActive", "Km", "Model", "Year" },
+                values: new object[] { new DateTime(2017, 2, 20, 11, 21, 51, 117, DateTimeKind.Local).AddTicks(4840), "Jeep", false, 16777, "Taurus", 2021 });
+
+            migrationBuilder.UpdateData(
+                table: "Vehicles",
+                keyColumn: "VehicleId",
+                keyValue: 2,
+                columns: new[] { "AddTime", "Brand", "IsActive", "Km", "Model", "Year" },
+                values: new object[] { new DateTime(2017, 5, 27, 16, 25, 49, 436, DateTimeKind.Local).AddTicks(4534), "Mini", true, 129747, "Model 3", 2017 });
+
+            migrationBuilder.UpdateData(
+                table: "Vehicles",
+                keyColumn: "VehicleId",
+                keyValue: 3,
+                columns: new[] { "AddTime", "Brand", "IsActive", "Km", "Model", "Year" },
+                values: new object[] { new DateTime(2019, 11, 19, 7, 38, 35, 648, DateTimeKind.Local).AddTicks(2775), "Honda", true, 110251, "Corvette", 2024 });
+        }
+    }
+}

@@ -1,0 +1,76 @@
+﻿using FiloCar.Application.Exceptions;
+using FiloCar.Application.Features.Vehicles.Rules;
+using FiloCar.Application.Interface.AutoMapper;
+using FiloCar.Application.Interface.Repositories;
+using FiloCar.Domain.Entity;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace FiloCar.Application.Features.Vehicles.Queries.GetAllVehicle
+{
+    public class GetAllVehicleQueryHandler : IRequestHandler<GetAllVehicleQuery, List<GetAllVehicleQueryResponse>>
+    {
+        private readonly IReadRepository<Vehicle> _vehicleReadRepository;
+        private readonly IMapper _mapper;
+        private readonly VehicleRules _vehicleRules;
+
+        public GetAllVehicleQueryHandler(
+            IReadRepository<Vehicle> vehicleReadRepository,
+            IMapper mapper,
+            VehicleRules vehicleRules)
+        {
+            _vehicleReadRepository = vehicleReadRepository ?? throw new ArgumentNullException(nameof(vehicleReadRepository));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _vehicleRules = vehicleRules ?? throw new ArgumentNullException(nameof(vehicleRules));
+        }
+
+        public async Task<List<GetAllVehicleQueryResponse>> Handle(GetAllVehicleQuery request, CancellationToken cancellationToken)
+        {
+            cancellationToken.ThrowIfCancellationRequested();
+
+            try
+            {
+                // Filtreleme Predicate
+                Expression<Func<Vehicle, bool>>? predicate = null; // filtreleme koşulu var mı 
+
+                if (request.DepartmanId.HasValue)
+                {
+                    predicate = v => v.DepartmanId == request.DepartmanId.Value; // DepartmanId'ye göre filtreleme
+                }
+
+                if (!string.IsNullOrEmpty(request.FuelType))
+                    predicate = predicate == null
+                        ? v => v.FuelType == request.FuelType   // Yakıt tipine göre filtreleme
+                        : predicate.And(v => v.FuelType == request.FuelType);
+
+                var vehicles = await _vehicleReadRepository.GetAllByPagingAsync( // Sayfalandırma
+                    predicate: predicate,   // filtreleme koşulu
+                    include: q => q.Include(x => x.Departman),  // departman bilgilerini dahil et
+                    enableTracking: false, // izleme kapalı
+                    currentPage: request.PageNumber, 
+                    pageSize: request.PageSize
+                );
+
+                // Her Vehicle’ı tek tek DTO’ya çeviriyoruz:
+                var dtoList = vehicles
+                    .Select(v => _mapper.Map<GetAllVehicleQueryResponse>(v))
+                    .ToList();
+
+                return dtoList;
+
+               
+            }
+            catch (Exception ex)
+            {
+                throw new BadRequestException("İşlem sırasında hata oluştu: " + ex.Message);
+            }
+        }
+
+    }
+}

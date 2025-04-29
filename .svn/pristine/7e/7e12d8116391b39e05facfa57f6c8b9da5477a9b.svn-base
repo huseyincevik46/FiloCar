@@ -1,0 +1,554 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyservicecompany\\getbyservicecomapanyquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyservicecompany\\getbyservicecomapanyquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyservicecompany\\getbyservicecompanyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyservicecompany\\getbyservicecompanyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyservicecompany\\getbyservicecompanyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyservicecompany\\getbyservicecompanyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\rules\\maintenancerecordrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\rules\\maintenancerecordrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyidvehicle\\getbyidvehicleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyidvehicle\\getbyidvehicleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyidvehicle\\getbyidvehiclequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyidvehicle\\getbyidvehiclequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyidvehicle\\getbyidvehiclehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyidvehicle\\getbyidvehiclehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getallwithfilters\\getallwithfiltershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getallwithfilters\\getallwithfiltershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\vehicles\\queries\\getallvehicle\\getallvehiclequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\vehicles\\queries\\getallvehicle\\getallvehiclequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyid\\getmaintenancerecordbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyid\\getmaintenancerecordbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyid\\getmaintenancerecordbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyid\\getmaintenancerecordbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getbyid\\getmaintenancerecordbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getbyid\\getmaintenancerecordbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\vehicles\\queries\\getbyid\\getvehiclebyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\vehicles\\queries\\getbyid\\getvehiclebyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getallwithfilters\\getallwithfiltersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getallwithfilters\\getallwithfiltersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\queries\\getallwithfilters\\getallwithfiltersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\queries\\getallwithfilters\\getallwithfiltersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\vehicles\\queries\\getallvehicle\\getallvehiclequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\vehicles\\queries\\getallvehicle\\getallvehiclequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\vehicles\\queries\\getallvehicle\\getallvehiclequeryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\vehicles\\queries\\getallvehicle\\getallvehiclequeryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\command\\createmaintenancerecord\\createmaintenancerecordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\command\\createmaintenancerecord\\createmaintenancerecordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\command\\createmaintenancerecord\\createmaintenancerecordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\command\\createmaintenancerecord\\createmaintenancerecordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\command\\createmaintenancerecord\\createmaintenancerecordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\command\\createmaintenancerecord\\createmaintenancerecordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\maintenancerecords\\exception\\businessexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\maintenancerecords\\exception\\businessexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\features\\vehicles\\commands\\createvehicle\\createvehiclecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\features\\vehicles\\commands\\createvehicle\\createvehiclecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AAFEC1-90C0-46C5-BAF0-CD76399ED37A}|Core\\FiloCar.Domain\\FiloCar.Domain.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.domain\\entity\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AAFEC1-90C0-46C5-BAF0-CD76399ED37A}|Core\\FiloCar.Domain\\FiloCar.Domain.csproj|solutionrelative:core\\filocar.domain\\entity\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F073D1-4BD7-4826-98E3-9F5C88793748}|Presentation\\FiloCar.Api\\FiloCar.Api.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\presentation\\filocar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F073D1-4BD7-4826-98E3-9F5C88793748}|Presentation\\FiloCar.Api\\FiloCar.Api.csproj|solutionrelative:presentation\\filocar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD625C2-C916-4A02-8584-C6E4DDD4E60C}|Infrastructure\\FiloCar.Persistence\\FiloCar.Persistence.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\infrastructure\\filocar.persistence\\repository\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD625C2-C916-4A02-8584-C6E4DDD4E60C}|Infrastructure\\FiloCar.Persistence\\FiloCar.Persistence.csproj|solutionrelative:infrastructure\\filocar.persistence\\repository\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.application\\interface\\repositories\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB77924-E1EA-4B35-A322-7962752CA5A7}|Core\\FiloCar.Application\\FiloCar.Application.csproj|solutionrelative:core\\filocar.application\\interface\\repositories\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD4835E-5E28-438E-A1B1-0EAF97E54B41}|Core\\FiloCar.Mapper\\FiloCar.Mapper.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\core\\filocar.mapper\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CD4835E-5E28-438E-A1B1-0EAF97E54B41}|Core\\FiloCar.Mapper\\FiloCar.Mapper.csproj|solutionrelative:core\\filocar.mapper\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD625C2-C916-4A02-8584-C6E4DDD4E60C}|Infrastructure\\FiloCar.Persistence\\FiloCar.Persistence.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\infrastructure\\filocar.persistence\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD625C2-C916-4A02-8584-C6E4DDD4E60C}|Infrastructure\\FiloCar.Persistence\\FiloCar.Persistence.csproj|solutionrelative:infrastructure\\filocar.persistence\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD625C2-C916-4A02-8584-C6E4DDD4E60C}|Infrastructure\\FiloCar.Persistence\\FiloCar.Persistence.csproj|c:\\users\\cevik\\onedrive\\masa\u00FCst\u00FC\\filocar\\infrastructure\\filocar.persistence\\configurations\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD625C2-C916-4A02-8584-C6E4DDD4E60C}|Infrastructure\\FiloCar.Persistence\\FiloCar.Persistence.csproj|solutionrelative:infrastructure\\filocar.persistence\\configurations\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Presentation\\FiloCar.Api\\Controllers\\VehicleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Presentation\\FiloCar.Api\\Controllers\\VehicleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Domain\\Entity\\MaintenanceRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\FiloCar.Domain\\Entity\\MaintenanceRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Utilities\\PredicateBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\FiloCar.Application\\Utilities\\PredicateBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetByServiceCompanyResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceCompanyResponse.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceCompanyResponse.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceCompanyResponse.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceCompanyResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:28:02.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetByServiceComapanyQuery.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceComapanyQuery.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceComapanyQuery.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceComapanyQuery.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceComapanyQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:27:48.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetByServiceCompanyHandler.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceCompanyHandler.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceCompanyHandler.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceCompanyHandler.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByServiceCompany\\GetByServiceCompanyHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:27:35.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaintenanceRecordRules.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Rules\\MaintenanceRecordRules.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Rules\\MaintenanceRecordRules.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Rules\\MaintenanceRecordRules.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Rules\\MaintenanceRecordRules.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:32:34.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetByIdVehicleResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleResponse.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleResponse.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleResponse.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:27:15.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetByIdVehicleQuery.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleQuery.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleQuery.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleQuery.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:26:56.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetByIdVehicleHandler.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleHandler.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleHandler.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleHandler.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetByIdVehicle\\GetByIdVehicleHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:26:40.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetMaintenanceRecordByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdHandler.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdHandler.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdHandler.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdHandler.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:41:52.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Presentation\\FiloCar.Api\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\FiloCar.Api\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Presentation\\FiloCar.Api\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "Presentation\\FiloCar.Api\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA3wEIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T07:09:42.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAllVehicleQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQueryHandler.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQueryHandler.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQueryHandler.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDMAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T22:30:42.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllWithFiltersHandler.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersHandler.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersHandler.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersHandler.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersHandler.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:47:23.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetMaintenanceRecordByIdResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdResponse.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdResponse.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdResponse.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:42:02.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetMaintenanceRecordByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdQuery.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdQuery.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdQuery.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetById\\GetMaintenanceRecordByIdQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:41:12.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetVehicleByIdQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetById\\GetVehicleByIdQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetById\\GetVehicleByIdQueryResponse.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetById\\GetVehicleByIdQueryResponse.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetById\\GetVehicleByIdQueryResponse.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T22:31:12.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAllWithFiltersResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersResponse.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersResponse.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersResponse.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:47:48.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAllWithFiltersQuery.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersQuery.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersQuery.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersQuery.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Queries\\GetAllWithFilters\\GetAllWithFiltersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:47:00.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MaintenanceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Domain\\Entity\\MaintenanceRecord.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Domain\\Entity\\MaintenanceRecord.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Domain\\Entity\\MaintenanceRecord.cs",
+              "RelativeToolTip": "Core\\FiloCar.Domain\\Entity\\MaintenanceRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:39:01.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllVehicleQuery.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQuery.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQuery.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQuery.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T22:30:19.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetAllVehicleQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQueryResponse.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQueryResponse.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\Vehicles\\Queries\\GetAllVehicle\\GetAllVehicleQueryResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T22:31:11.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateMaintenanceRecordValidator.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordValidator.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordValidator.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordValidator.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:35:04.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BusinessException .cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Exception\\BusinessException .cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Exception\\BusinessException .cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Exception\\BusinessException .cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Exception\\BusinessException .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:33:56.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateMaintenanceRecordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordRequest.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordRequest.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordRequest.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:35:24.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateMaintenanceRecordHandler.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordHandler.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordHandler.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordHandler.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\MaintenanceRecords\\Command\\CreateMaintenanceRecord\\CreateMaintenanceRecordHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:34:42.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateVehicleCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Commands\\CreateVehicle\\CreateVehicleCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Features\\Vehicles\\Commands\\CreateVehicle\\CreateVehicleCommandRequest.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Features\\Vehicles\\Commands\\CreateVehicle\\CreateVehicleCommandRequest.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Features\\Vehicles\\Commands\\CreateVehicle\\CreateVehicleCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:21:53.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Infrastructure\\FiloCar.Persistence\\Registration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\FiloCar.Persistence\\Registration.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Infrastructure\\FiloCar.Persistence\\Registration.cs",
+              "RelativeToolTip": "Infrastructure\\FiloCar.Persistence\\Registration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T07:24:56.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VehicleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Infrastructure\\FiloCar.Persistence\\Configurations\\VehicleConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\FiloCar.Persistence\\Configurations\\VehicleConfiguration.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Infrastructure\\FiloCar.Persistence\\Configurations\\VehicleConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\FiloCar.Persistence\\Configurations\\VehicleConfiguration.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDoAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T07:18:40.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Presentation\\FiloCar.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\FiloCar.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Presentation\\FiloCar.Api\\Program.cs",
+              "RelativeToolTip": "Presentation\\FiloCar.Api\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T07:30:37.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Domain\\Entity\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Domain\\Entity\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Domain\\Entity\\Vehicle.cs",
+              "RelativeToolTip": "Core\\FiloCar.Domain\\Entity\\Vehicle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:55:46.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Interface\\Repositories\\IReadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Interface\\Repositories\\IReadRepository.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Interface\\Repositories\\IReadRepository.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Interface\\Repositories\\IReadRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:50:25.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Infrastructure\\FiloCar.Persistence\\Repository\\ReadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\FiloCar.Persistence\\Repository\\ReadRepository.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Infrastructure\\FiloCar.Persistence\\Repository\\ReadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\FiloCar.Persistence\\Repository\\ReadRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwDwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:43:38.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PredicateBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Utilities\\PredicateBuilder.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Application\\Utilities\\PredicateBuilder.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Application\\Utilities\\PredicateBuilder.cs",
+              "RelativeToolTip": "Core\\FiloCar.Application\\Utilities\\PredicateBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:21:22.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Mapper\\Registration.cs",
+              "RelativeDocumentMoniker": "Core\\FiloCar.Mapper\\Registration.cs",
+              "ToolTip": "C:\\Users\\cevik\\OneDrive\\Masa\u00FCst\u00FC\\FiloCar\\Core\\FiloCar.Mapper\\Registration.cs",
+              "RelativeToolTip": "Core\\FiloCar.Mapper\\Registration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T07:25:27.974Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 134,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

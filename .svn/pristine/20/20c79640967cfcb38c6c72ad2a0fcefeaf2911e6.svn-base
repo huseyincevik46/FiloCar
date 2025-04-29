@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FiloCar.Application.Features.Vehicles.Queries.GetById
+{
+    public class GetVehicleByIdResponse
+    {
+        public int VehicleId { get; set; }
+        public int? DepartmanId { get; set; }
+        public string PlateNumber { get; set; } = null!;
+        public string Brand { get; set; } = null!;
+        public string Model { get; set; } = null!;
+        public int Year { get; set; }
+        public int Km { get; set; }
+        public string? DepartmanName { get; set; }
+
+    }
+}

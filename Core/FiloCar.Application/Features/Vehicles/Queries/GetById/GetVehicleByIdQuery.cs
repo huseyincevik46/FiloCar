@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using FiloCar.Application.Exceptions;
+using MediatR;
+
+namespace FiloCar.Application.Features.Vehicles.Queries.GetById
+{
+    public class GetVehicleByIdQuery : IRequest<GetVehicleByIdQueryResponse>
+    {
+        public int VehicleId { get; set; }
+
+    
+        public void Validate()
+        {
+            if (VehicleId <= 0)
+                throw new BadRequestException("VehicleId pozitif bir tamsayı olmalıdır.");
+        }
+    }
+}

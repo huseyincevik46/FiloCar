@@ -1,0 +1,279 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
+namespace FiloCar.Persistence.Migrations
+{
+    /// <inheritdoc />
+    public partial class İntialCreate2 : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "Departmans",
+                columns: table => new
+                {
+                    DepartmanId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    City = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    District = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Departmans", x => x.DepartmanId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Drives",
+                columns: table => new
+                {
+                    DriverId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DepartmanId = table.Column<int>(type: "int", nullable: false),
+                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LicenseNumber = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Drives", x => x.DriverId);
+                    table.ForeignKey(
+                        name: "FK_Drives_Departmans_DepartmanId",
+                        column: x => x.DepartmanId,
+                        principalTable: "Departmans",
+                        principalColumn: "DepartmanId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Vehicles",
+                columns: table => new
+                {
+                    VehicleId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DepartmanId = table.Column<int>(type: "int", nullable: true),
+                    PlateNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Brand = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Model = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Year = table.Column<int>(type: "int", nullable: false),
+                    Km = table.Column<int>(type: "int", nullable: false),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false),
+                    AddTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Vehicles", x => x.VehicleId);
+                    table.ForeignKey(
+                        name: "FK_Vehicles_Departmans_DepartmanId",
+                        column: x => x.DepartmanId,
+                        principalTable: "Departmans",
+                        principalColumn: "DepartmanId");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "FuelLogs",
+                columns: table => new
+                {
+                    FuelLogId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    VehicleId = table.Column<int>(type: "int", nullable: false),
+                    FuelDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Liter = table.Column<double>(type: "float", nullable: false),
+                    LiterCount = table.Column<double>(type: "float", nullable: false),
+                    StationName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CurrentKm = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_FuelLogs", x => x.FuelLogId);
+                    table.ForeignKey(
+                        name: "FK_FuelLogs_Vehicles_VehicleId",
+                        column: x => x.VehicleId,
+                        principalTable: "Vehicles",
+                        principalColumn: "VehicleId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "MaintenanceRecords",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    VehicleId = table.Column<int>(type: "int", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    MaintenanceDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Cost = table.Column<double>(type: "float", nullable: false),
+                    KmAtMaintenance = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_MaintenanceRecords", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_MaintenanceRecords_Vehicles_VehicleId",
+                        column: x => x.VehicleId,
+                        principalTable: "Vehicles",
+                        principalColumn: "VehicleId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "VehicleAssigments",
+                columns: table => new
+                {
+                    VehicleAssigmentId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    VehicleId = table.Column<int>(type: "int", nullable: false),
+                    DriverId = table.Column<int>(type: "int", nullable: false),
+                    AssignmentStart = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    AssignmentEnd = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Notes = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_VehicleAssigments", x => x.VehicleAssigmentId);
+                    table.ForeignKey(
+                        name: "FK_VehicleAssigments_Drives_DriverId",
+                        column: x => x.DriverId,
+                        principalTable: "Drives",
+                        principalColumn: "DriverId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_VehicleAssigments_Vehicles_VehicleId",
+                        column: x => x.VehicleId,
+                        principalTable: "Vehicles",
+                        principalColumn: "VehicleId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Departmans",
+                columns: new[] { "DepartmanId", "City", "District", "Name" },
+                values: new object[,]
+                {
+                    { 1111, "Niğde", "Cambridgeshire", "Tools, Movies & Electronics" },
+                    { 2222, "Ağrı", "Bedfordshire", "Music" },
+                    { 3333, "Eskişehir", "Cambridgeshire", "Automotive & Jewelery" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Vehicles",
+                columns: new[] { "VehicleId", "AddTime", "Brand", "DepartmanId", "IsActive", "Km", "Model", "PlateNumber", "Year" },
+                values: new object[,]
+                {
+                    { 2, new DateTime(2017, 5, 27, 16, 25, 49, 436, DateTimeKind.Local).AddTicks(4534), "Mini", null, true, 129747, "Model 3", "46ABC463", 2017 },
+                    { 3, new DateTime(2019, 11, 19, 7, 38, 35, 648, DateTimeKind.Local).AddTicks(2775), "Honda", null, true, 110251, "Corvette", "46ABD463", 2024 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Drives",
+                columns: new[] { "DriverId", "DepartmanId", "FirstName", "LastName", "LicenseNumber", "PhoneNumber" },
+                values: new object[,]
+                {
+                    { 11, 1111, "Burunduk", "Dalkıran", "v88whdzvxh", "+90-235-386-1-514" },
+                    { 22, 2222, "Çemen", "Sözeri", "f2uyibxko1", "+90-177-874-33-32" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "FuelLogs",
+                columns: new[] { "FuelLogId", "CurrentKm", "FuelDate", "Liter", "LiterCount", "StationName", "VehicleId" },
+                values: new object[,]
+                {
+                    { 24, 35871, new DateTime(2025, 4, 17, 3, 18, 7, 231, DateTimeKind.Local).AddTicks(4652), 76.352562655776438, 38.918312859770509, "Özbir - Kaplangı", 2 },
+                    { 25, 70059, new DateTime(2025, 4, 14, 19, 19, 24, 953, DateTimeKind.Local).AddTicks(7513), 38.190026950008978, 33.731873109847029, "Beşerler - Aybar", 3 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "MaintenanceRecords",
+                columns: new[] { "Id", "Cost", "Description", "KmAtMaintenance", "MaintenanceDate", "VehicleId" },
+                values: new object[,]
+                {
+                    { 42, 954.51999999999998, "Enim qui et quaerat.", 163307, new DateTime(2018, 8, 6, 3, 47, 52, 934, DateTimeKind.Local).AddTicks(827), 2 },
+                    { 43, 324.60000000000002, "Gülüyorum bundan eum orta quaerat camisi accusantium magnam.", 284542, new DateTime(2021, 2, 11, 10, 53, 3, 451, DateTimeKind.Local).AddTicks(9257), 3 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Vehicles",
+                columns: new[] { "VehicleId", "AddTime", "Brand", "DepartmanId", "IsActive", "Km", "Model", "PlateNumber", "Year" },
+                values: new object[] { 1, new DateTime(2017, 2, 20, 11, 21, 51, 117, DateTimeKind.Local).AddTicks(4840), "Jeep", 2222, false, 16777, "Taurus", "46ABO463", 2021 });
+
+            migrationBuilder.InsertData(
+                table: "FuelLogs",
+                columns: new[] { "FuelLogId", "CurrentKm", "FuelDate", "Liter", "LiterCount", "StationName", "VehicleId" },
+                values: new object[] { 23, 67556, new DateTime(2025, 4, 19, 2, 56, 38, 822, DateTimeKind.Local).AddTicks(5548), 36.478213512902997, 38.201321414182551, "Tekelioğlu - Alyanak", 1 });
+
+            migrationBuilder.InsertData(
+                table: "MaintenanceRecords",
+                columns: new[] { "Id", "Cost", "Description", "KmAtMaintenance", "MaintenanceDate", "VehicleId" },
+                values: new object[] { 41, 444.25999999999999, "Iusto voluptatem okuma salladı camisi camisi koşuyorlar autem kapının.", 28083, new DateTime(2018, 1, 6, 11, 56, 44, 217, DateTimeKind.Local).AddTicks(1271), 1 });
+
+            migrationBuilder.InsertData(
+                table: "VehicleAssigments",
+                columns: new[] { "VehicleAssigmentId", "AssignmentEnd", "AssignmentStart", "DriverId", "Notes", "VehicleId" },
+                values: new object[,]
+                {
+                    { 50, null, new DateTime(2024, 5, 21, 6, 39, 2, 474, DateTimeKind.Local).AddTicks(526), 11, "Biber commodi değerli ışık.", 1 },
+                    { 51, new DateTime(2025, 3, 21, 4, 35, 4, 830, DateTimeKind.Local).AddTicks(2554), new DateTime(2024, 5, 21, 6, 39, 2, 474, DateTimeKind.Local).AddTicks(526), 22, "Masanın ki ratione sıradanlıktan layıkıyla dolore lakin sokaklarda ducimus.", 2 },
+                    { 52, new DateTime(2024, 11, 12, 3, 8, 33, 253, DateTimeKind.Local).AddTicks(1182), new DateTime(2024, 5, 21, 6, 39, 2, 474, DateTimeKind.Local).AddTicks(526), 22, "Aliquid yaptı sokaklarda dolor odio.", 3 }
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Drives_DepartmanId",
+                table: "Drives",
+                column: "DepartmanId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_FuelLogs_VehicleId",
+                table: "FuelLogs",
+                column: "VehicleId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_MaintenanceRecords_VehicleId",
+                table: "MaintenanceRecords",
+                column: "VehicleId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_VehicleAssigments_DriverId",
+                table: "VehicleAssigments",
+                column: "DriverId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_VehicleAssigments_VehicleId",
+                table: "VehicleAssigments",
+                column: "VehicleId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Vehicles_DepartmanId",
+                table: "Vehicles",
+                column: "DepartmanId");
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "FuelLogs");
+
+            migrationBuilder.DropTable(
+                name: "MaintenanceRecords");
+
+            migrationBuilder.DropTable(
+                name: "VehicleAssigments");
+
+            migrationBuilder.DropTable(
+                name: "Drives");
+
+            migrationBuilder.DropTable(
+                name: "Vehicles");
+
+            migrationBuilder.DropTable(
+                name: "Departmans");
+        }
+    }
+}
